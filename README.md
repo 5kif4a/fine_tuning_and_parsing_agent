@@ -7,12 +7,12 @@
 ```
 project/
 ├── main.ipynb                      # История Казахстана QA-бот (70%)
-├── almaty_places_to_go_agent.ipynb # Агент "Куда сходить в Алматы" (30%)
+├── sxodim_agent.ipynb # Агент "Куда сходить в Алматы" (30%)
 ├── kz_history.pdf                  # Учебник истории (исходные данные)
 ├── history.txt                     # Извлеченный текст (OCR)
 ├── history_sft_dataset.json        # SFT датасет (299 QA пар)
 ├── sxodim_data.json                # Спарсенные данные с sxodim.com
-├── sft_friendly_dataset.json       # SFT датасет для дружелюбности
+├── orpo_friendly_dataset.json       # SFT датасет для дружелюбности
 ├── agent_examples.md               # Примеры диалогов агента
 └── pyproject.toml                  # Зависимости проекта
 ```
@@ -168,8 +168,8 @@ poetry shell
 jupyter notebook
 ```
 
-1. **main.ipynb** - запустить все ячейки для QA-бота
-2. **almaty_places_to_go_agent.ipynb** - запустить для агента
+1. **history_finetuning.ipynb** - запустить все ячейки для QA-бота
+2. **sxodim_agent.ipynb** - запустить для агента
 
 ---
 

@@ -6,13 +6,13 @@
 
 ```
 project/
-├── history_finetuning.ipynb                      # История Казахстана QA-бот (70%)
-├── sxodim_agent.ipynb # Агент "Куда сходить в Алматы" (30%)
+├── history_finetuning.ipynb        # История Казахстана QA-бот (70%)
+├── sxodim_agent.ipynb              # Агент "Куда сходить в Алматы" (30%)
 ├── kz_history.pdf                  # Учебник истории (исходные данные)
 ├── history.txt                     # Извлеченный текст (OCR)
 ├── history_sft_dataset.json        # SFT датасет (299 QA пар)
 ├── sxodim_data.json                # Спарсенные данные с sxodim.com
-├── orpo_friendly_dataset.json       # SFT датасет для дружелюбности
+├── orpo_friendly_dataset.json      # SFT датасет для дружелюбности
 ├── agent_examples.md               # Примеры диалогов агента
 └── pyproject.toml                  # Зависимости проекта
 ```

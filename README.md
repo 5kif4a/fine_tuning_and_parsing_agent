@@ -6,7 +6,7 @@
 
 ```
 project/
-├── main.ipynb                      # История Казахстана QA-бот (70%)
+├── history_finetuning.ipynb                      # История Казахстана QA-бот (70%)
 ├── sxodim_agent.ipynb # Агент "Куда сходить в Алматы" (30%)
 ├── kz_history.pdf                  # Учебник истории (исходные данные)
 ├── history.txt                     # Извлеченный текст (OCR)
